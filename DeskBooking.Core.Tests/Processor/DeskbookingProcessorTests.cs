@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DeskBooking.Core.Model;
+using DeskBooking.Core.Processor;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,6 +31,7 @@ namespace DeskBooking.Core.Tests.Processor
 
             //Assert
             Assert.NotNull(result);
+            Assert.Equal(request.FirstName, result.FirstName);
         }
     }
 }

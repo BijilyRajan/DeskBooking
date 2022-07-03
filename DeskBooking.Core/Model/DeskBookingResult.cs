@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace DeskBooking.Core.Tests.Processor
+namespace DeskBooking.Core.Model
 {
-    internal class DeskBookingRequest
+    public class DeskBookingResult
     {
         public string FirstName { get; set; }
         public string Email { get; set; }
